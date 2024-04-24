@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReDstoNe</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;
+0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<!-- ---------------------------bootstrap----------------------------------->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+        <nav>
+            <ul class="sidebar">
+              <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="accounts.html">Accounts</a></li>
+              <li class="cart"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+            <ul>
+              <li><a href="#"><img src="/assets/img/download (1).png" height="189%" alt=""></a></li>
+              <li class="hideOnMobile"><a href="#">Home</a></li>
+              <li class="hideOnMobile"><a href="products.html">Products</a></li>
+              <li class="hideOnMobile"><a href="about.html">About</a></li>
+              <li class="hideOnMobile"><a href="accounts.html">Accounts</a></li>
+              <li class="hideOnMobile cart"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+              <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+        
+        <div class="row_1">
+            <div class="col-2">
+                <h1>UNLOCK NEW POSSIBILITIES </h1>
+                <p>"Are you tired of searching for things like gadget shops near me and the best gadget shops in the quest of finding the perfect gadget shop near you?"</p>
+                    <button class="btn">Explore Now &#8594;</button>
+            </div>
+            <div class="col-2">
+                <img src="/assets/img/happy-woman-peeking-out-of-mobile-phone-screen-raising-hand-with-packages-from-clothing-store-png.webp" alt="">
+                
+                
+            </div>
+        </div>
+    </div>
+    </div>
+
+    
+    <!-- --------------------featured products------------------ -->
+
+
+    <div class="container py-5">
+        <!-- For Demo Purpose-->
+        <header class="text-center mb-5">
+          <h1 class="display-4 font-weight-bold">Featured Products</h1>
+          <p>_____________________________</p>
+        </header>
+    
+        <div class="row pb-5 mb-4">
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <!-- Card-->
+            <div class="card rounded shadow-sm border-0">
+              <div class="card-body p-4"><img src="https://rukminim2.flixcart.com/image/612/612/ktx9si80/headphone/1/b/u/immortal-im1300-boat-original-imag76327zfzgkhu.jpeg?q=70" height="50px" alt="" class="img-fluid d-block mx-auto mb-3">
+                <h5> <a href="#" class="text-dark">JBL headphones</a></h5>
+                <p class="small text-muted font-italic">Latest arrival of the new imported HEADPHONES of JBLs, 
+                  with a modern and resistant design</p>
+                <ul class="list-inline small">
+                  <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                  <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                  <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                  <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                  <li class="list-inline-item m-0"><i class="fa fa-star-o text-success"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <!-- Card-->
+            <div class="card rounded shadow-sm border-0">
+              <div class="card-body p-4"><img src="/assets/img/airpods/airpods pro.jpg" alt="" class="img-fluid d-block mx-auto mb-3">
+                <h5> <a href="#" class="text-dark">apple airpods pro</a></h5>
+                <p class="small text-muted font-italic">AXL Vayu Book Thin and Light Laptop (Intel Celeron-N4020/4GB/128GB SSD/UHD Graphics/Windows 11/Full HD)</p>
+                <ul class="list-inline small">
+                  <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                  <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                  <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                  <li class="list-inline-item m-0"><i class="fa fa-star-o text-success"></i></li>
+                  <li class="list-inline-item m-0"><i class="fa fa-star-o text-success"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <!-- Card-->
+            <div class="card rounded shadow-sm border-0">
+              <div class="card-body p-4"><img src="/assets/img/speakers/speakers-removebg-preview.png" alt="" class="img-fluid d-block mx-auto mb-3">
+                <h5> <a href="#" class="text-dark">JBL speakers</a></h5>
+                <p class="small text-muted font-italic">JBL Bluetooth speaker we've tested is the JBL Boombox 3. It's a portable Bluetooth speaker with a boombox-style design.</p>
+                <ul class="list-inline small">
+                  <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                  <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                  <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                  <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                  <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <!-- Card-->
+            <div class="card rounded shadow-sm border-0">
+              <div class="card-body p-4"><img src="/assets/img/watches/watch.jpg" alt="" class="img-fluid d-block mx-auto mb-3">
+                <h5> <a href="#" class="text-dark">Watches</a></h5>
+                <p class="small text-muted font-italic">Pebble Hive 1.39"HD Octa Display,BT Calling,DIY Watch Face,World Clock Smartwatch</p>
+                <ul class="list-inline small">
+                  <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                  <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                  <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                  <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                  <li class="list-inline-item m-0"><i class="fa fa-star-o text-success"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- --------------------------trending----------------------------------- -->
+    
+    <section class="container trending-product" id="trending">
+        <div class="center-text">
+          <header class="text-center mb-5">
+            <h1 class="display-4 font-weight-bold">trending-products</h1>
+            <p>_____________________________</p>
+          </header>
+      
+        
+        <div class="products">
+            <div class="row">
+                <img src="/assets/img/headphones/headset1.png" alt="">
+                <div class="product-text">
+                    <h5>sale</h5>
+                </div>
+                <div class="heart-icon">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="ratting">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="price">
+                    <h4>Half Runnig Set</h4>
+                    <p>$99.0 - $120.9</p>
+                </div>
+            </div>
+            <div class="row">
+                <img src="/assets/img/airpods/airpods pro.jpg" alt="">
+                <div class="product-text">
+                    <h5>new</h5>
+                </div>
+                <div class="heart-icon">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="ratting">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="price">
+                    <h4>airpods pro </h4>
+                    <p>$99.0 </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="/assets/img/watches/watch_product-removebg-preview.png" alt="">
+                <div class="product-text">
+                    <h5>sale</h5>
+                </div>
+                <div class="heart-icon">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="ratting">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="price">
+                    <h4>Pebble Hive 1.39" smart watch</h4>
+                    <p> $120.9</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="/assets/img/airpods/airpids.jpg" alt="">
+                <div class="product-text">
+                    <h5>sale</h5>
+                </div>
+                <div class="heart-icon">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="ratting">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="price">
+                    <h4>Samsung tab A8</h4>
+                    <p>$29.0 - $80.9</p>
+                </div>
+            </div>
+            <div class="row">
+                <img src="/assets/img/speakers/anna-petruk-h_fTKoXlCzA-unsplash.jpg" alt="">
+                <div class="product-text">
+                    <h5>sale</h5>
+                </div>
+                <div class="heart-icon">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="ratting">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="price">
+                    <h4>JBL speakers</h4>
+                    <p>$99.0 - $120.9</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="/assets/img/headphones/favorite-3.png" alt="">
+                <div class="product-text">
+                    <h5>sale</h5>
+                </div>
+                <div class="heart-icon">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="ratting">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="price">
+                    <h4>headphones</h4>
+                    <p>$99.0 - $120.9</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="/assets/img/watches/watches-removebg-preview.png" alt="">
+                <div class="product-text">
+                    <h5>sale</h5>
+                </div>
+                <div class="heart-icon">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="ratting">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="price">
+                    <h4>watch 6</h4>
+                    <p>$99.0 - $120.9</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="/assets/img/headphones/necbands-removebg-preview.png" alt="">
+                <div class="product-text">
+                    <h5>sale</h5>
+                </div>
+                <div class="heart-icon">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="ratting">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="price">
+                    <h4>Nec-bands</h4>
+                    <p>$99.0 - $120.9</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- --------------------------------Our Team------------------------------------ -->
+
+        
+    <header class="text-center mb-5">
+      <h1 class="display-4 font-weight-bold">Our Team </h1>
+      <p>_____________________________</p>
+    </header>
+        <div class="row pb-5 mb-4">
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <!-- Card-->
+            <div class="card shadow-sm border-0 rounded">
+              <div class="card-body p-0"><img src="https://bootstrapious.com/i/snippets/sn-cards/profile-1_dewapk.jpg" alt="" class="w-100 card-img-top">
+                <div class="p-4">
+                  <h5 class="mb-0">Mark Rockwell</h5>
+                  <p class="small text-muted">CEO - Consultant</p>
+                  <div class="links">
+                    
+                    <a href="https://www.facebook.com/login/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <!-- Card-->
+            <div class="card shadow-sm border-0 rounded">
+              <div class="card-body p-0"><img src="https://bootstrapious.com/i/snippets/sn-cards/profile-3_ybnq8v.jpg" alt="" class="w-100 card-img-top">
+                <div class="p-4">
+                  <h5 class="mb-0">kunjiman manjeri</h5>
+                  <p class="small text-muted">CEO - Consultant</p>
+                  <div class="links">
+                    
+                    <a href="https://www.facebook.com/login/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <!-- Card-->
+            <div class="card shadow-sm border-0 rounded">
+              <div class="card-body p-0"><img src="https://bootstrapious.com/i/snippets/sn-cards/profile-2_ujssbj.jpg" alt="" class="w-100 card-img-top">
+                <div class="p-4">
+                  <h5 class="mb-0">Babumon nilambur</h5>
+                  <p class="small text-muted">CEO - Consultant</p>
+                  <div class="links">
+                    
+                    <a href="https://www.facebook.com/login/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <!-- Card-->
+            <div class="card shadow-sm border-0 rounded">
+              <div class="card-body p-0"><img src="https://res.cloudinary.com/mhmd/image/upload/v1570799922/profile-2_ujssbj.jpg" alt="" class="w-100 card-img-top">
+                <div class="p-4">
+                  <h5 class="mb-0"> Rockwell Mark </h5>
+                  <p class="small text-muted">CEO - Consultant</p>
+                  <div class="links">
+                    
+                    <a href="https://www.facebook.com/login/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- ----------------------------------footer--------------------------------- -->
+
+        <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #929fba"
+          >
+    <div class="container p-4 pb-0">
+        <div class="row">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              REDSTONE
+            </h6>
+            <p>
+                a form of electronic commerce which allows consumers to directly buy goods or
+                 services from a seller over the Internet using a web browser or a mobile app.
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+            <p class="text-white">
+              Headphone
+            </p>
+            <p class="text-white">
+              Airpods
+            </p>
+            <p class="text-white">
+              Speakers
+            </p>
+            <p class="text-white">
+              Watches
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3"></i> calicut town, NY 10012,Kozikode </p>
+            <p><i class="fas fa-envelope mr-3"></i> shanifsanu1062@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> +91 7510381062</p>
+            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+          </div>
+        
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #3b5998"
+               href="#!"
+               role="button"
+               ><i class="fab fa-facebook-f"></i
+              ></a>
+
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #55acee"
+               href="https://twitter.com/i/flow/login"
+               role="button"
+               ><i class="fab fa-twitter"></i
+              ></a>
+
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #dd4b39"
+               href="https://www.google.com/"
+               role="button"
+               ><i class="fab fa-google"></i
+              ></a>
+
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #ac2bac"
+               href="https://www.instagram.com/"
+               role="button"
+               ><i class="fab fa-instagram"></i
+              ></a>
+
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #0082ca"
+               href="https://www.linkedin.com/"
+               role="button"
+               ><i class="fab fa-linkedin-in"></i
+              ></a>
+            
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #333333"
+               href="#!"
+               role="button"
+               ><i class="fab fa-github"></i
+              ></a>
+          </div>
+        </div>
+    </div>
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2024 Copyright:
+      <a class="text-white" href="#">
+         Muhammed shanif</a>
+        
+    </div>
+    
+  </footer>
+
+    <script src="assets/scripts.js"></script>
+    <!-- --------------------------------------------bootstrazp----------------------------------------------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" 
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding: 2rem;
+}
+body{
+    font-family: 'poppins',sans-serif;
+    overflow-x: hidden;
+}
+nav{
+    background-color: #fcf8f8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    /* box-shadow: 3px 3px  rgba(0, 0, 0, 0.1); */
+    z-index: 999;
+  }
+  nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  nav li{
+    height: 35px;
+  }
+  nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+  nav a:hover{
+    color: #5c5959; 
+    border-radius: 15px;
+  }
+  nav li:first-child{
+    margin-right: auto;
+  }
+  .sidebar{
+    position: fixed;
+    top: 0; 
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .sidebar li{
+    width: 100%;
+  }
+  .sidebar a{
+    width: 100%;
+  }
+  .menu-button{
+    display: none;
+  }
+  @media(max-width: 800px){
+    .hideOnMobile{
+      display: none;
+    }
+    .header {
+      padding: 30px;
+  }
+    .menu-button{
+      display: block;
+    }
+  }
+  @media(max-width: 400px){
+    .sidebar{
+      width: 100%;
+    }
+  }
+.container-fluid{
+    max-width: 100%;
+    margin-top: 5%;
+    
+}
+.row_1{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    column-gap: 1%;
+}
+.col-2{
+    position: relative;
+    /* top: 10%; */
+    flex-basis:50% ;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+    position: relative;
+    top: 1;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.wth {
+    position: relative;
+    top: 4%;
+    left: 90%;
+}
+.btn{
+    border: solid 10px;
+    display: inline-block;
+    background: #989594;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+
+}
+.btn:hover{
+    background: #342623;
+
+}
+.header{
+    background: radial-gradient(#fff,#ffd6d6);
+    width: 100%;
+    padding: 20px;
+}
+.header .row{
+    margin-top: 70px;
+}
+
+
+.center-text h2{
+    color: #111;
+    font-size: 28px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.center-text span{
+    color: #eb3219;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px,auto));
+    gap:2rem;
+    
+}
+.row{
+    position: relative;
+    transition: all.40s;
+    /* background-color: #eb3219; */
+    /* border:solid 2px;
+    border-radius: 9px;
+     */
+
+}
+.row img{
+    width: 100%;
+    height: auto;
+    transition: all .40s;
+    
+}
+
+.row img :hover{
+    transform: scale(0.9);
+}
+.product-text h5{
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform:uppercase ;
+    background-color: #27b737;
+    padding: 3px 10px;
+    border-radius: 2px;
+}
+.heart-icon{
+    position: absolute;
+    left: 85%;
+    font-size: 20px;
+}
+.heart-icon:hover{
+    color:#eb3219 ;
+}
+.ratting i{
+    color:#ff8c00 ;
+    font-size: 18px;
+
+}
+.price h4{
+    color:#111 ;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+
+/* ===================our team======================= */
+
+.links a{
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    color: white;
+    background-color: rgba(194, 217, 241, 0.8);
+    margin: 0 8px 8px 0;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 50%;
+    /* transition: 0.4s; */
+}
+
+
+
+
+/* ================media queries===================== */
+
+@media only screen and (max-width: 480px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 481px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+}
+
+
+
+
